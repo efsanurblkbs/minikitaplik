@@ -1,0 +1,156 @@
+
+.App {
+  padding: 30px;
+  font-family: 'Arial', sans-serif;
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+h1 {
+  color: #333;
+  border-bottom: 3px solid #0056b3; 
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #0056b3;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+
+.ana-layout {
+  display: flex;
+  gap: 40px; 
+  align-items: flex-start;
+}
+
+.sol-panel {
+  flex: 3; 
+}
+
+.sağ-panel {
+  flex: 1; 
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.arama-filtre-satırı {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.arama-filtre-satırı input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+.arama-filtre-satırı select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.kitap-liste {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.kitap-kartı {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd; 
+}
+.kitap-kartı:last-child {
+    border-bottom: none; 
+}
+
+
+.kitap-bilgi h4 {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    color: #0056b3;
+}
+.kitap-bilgi p {
+    margin: 2px 0 0 0;
+    color: #666;
+    font-size: 0.85em;
+}
+
+
+.kitap-kartı button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: normal;
+    transition: background-color 0.2s;
+    white-space: nowrap; 
+}
+
+
+.favori-pasif {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.favori-aktif {
+    background-color: gold;
+    color: #333;
+    border: 1px solid #ccaa00;
+    font-weight: bold;
+}
+
+
+.favori-panel {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+}
+.favori-panel ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+.favori-panel li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dotted #ccc;
+    font-size: 0.9em;
+}
+.favori-panel li:last-child {
+    border-bottom: none;
+}
+
+
+.kaldir-buton {
+    background-color: #ffdddd;
+    color: #cc0000;
+    border: none;
+    padding: 3px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.liste-bos {
+    padding: 15px;
+    text-align: center;
+    color: #888;
+}
